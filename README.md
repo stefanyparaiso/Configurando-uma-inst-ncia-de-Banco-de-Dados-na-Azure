@@ -29,7 +29,7 @@ Passo 4: Configurações de Rede
 Passo 5: Revisar e Criar
 - Revise suas configurações e clique em "Criar".
 
-2. Criar Bancos de Dados SQL
+<h1>Criar Bancos de Dados SQL</h1>
 
 Passo 1: Criar um Banco de Dados SQL
 - No painel do Azure, clique em "Criar um recurso".
@@ -38,7 +38,7 @@ Passo 1: Criar um Banco de Dados SQL
 Passo 2: Configurar o Banco de Dados SQL
 - Assinatura: Escolha sua assinatura do Azure.
 - Grupo de Recursos: Escolha o grupo existente ou crie um novo.
-- **Nome do Banco de Dados**: Dê um nome ao seu banco de dados.
+- Nome do Banco de Dados: Dê um nome ao seu banco de dados.
 - Servidor: Crie um novo servidor ou escolha um existente. Para criar um novo:
 - Defina um nome do servidor.
 - Escolha uma localização (região).
@@ -53,15 +53,6 @@ Passo 4: Configurações de Backup
 Passo 5: Revisar e Criar
 - Revise suas configurações e clique em "Criar".
 
-3. Conectar a Máquina Virtual ao Banco de Dados SQL
-
-Passo 1: Configurar Firewall do Banco de Dados SQL
-- Acesse o servidor SQL no portal do Azure.
-- Na seção "Configurações", clique em "Regras de firewall".
-- Adicione a faixa de IP da sua máquina virtual para permitir acesso.
-
-Passo 2: Conectar via SQL Server Management Studio (SSMS) ou outro cliente**
-- Utilize o nome do servidor e credenciais que você configurou para se conectar ao banco de dados SQL.
 
 Dicas
 - Segurança: Sempre utilize práticas de segurança recomendadas, como redes virtuais, grupos de segurança e autenticação forte.
